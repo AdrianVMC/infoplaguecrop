@@ -5,7 +5,7 @@ const indexRouter = require('./routes/index');
 const app = express();
 
 // Railway asigna un puerto dinámico en la variable de entorno PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // 1. Servir archivos estáticos (HTML, CSS, imágenes, .zip)
 app.use(express.static(path.join(__dirname, 'public')));
